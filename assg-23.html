@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 3 - Assignment 7</title>
+  </head>
+  <body>
+    <h1>Day 3 - Favourite Colours</h1>
+    <p>Click the button to see my favourite colours.</p>
+
+    <button onclick="showColours()">Show Colours</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+    <script>
+      function showColours() {
+        var colours = ["Blue", "Black", "White", "Green", "Red"];
+        var output = "";
+        for (var i = 0; i < colours.length; i++) {
+          output += colours[i] + "<br>";
+        }
+        document.getElementById("result").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 3 - Assignment 6</title>
+  </head>
+  <body>
+    <h1>Day 3 - Adult Checker</h1>
+    <p>Enter your age to check if you are an adult.</p>
+
+    <label>Age: </label>
+    <input type="number" id="age" /><br /><br />
+
+    <button onclick="checkAdult()">Check</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+    <script>
+      function isAdult(age) {
+        return age >= 18;
+      }
+      function checkAdult() {
+        var ageValue = Number(document.getElementById("age").value);
+        if (isAdult(ageValue)) {
+          document.getElementById("result").innerText = "You are an adult.";
+        } else {
+          document.getElementById("result").innerText = "You are not an adult.";
+        }
+      }
+    </script>
+  </body>
+</html>

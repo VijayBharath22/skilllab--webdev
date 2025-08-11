@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 3 - Assignment 8 (Corrected)</title>
+</head>
+<body>
+    <h1>Day 3 - Person Object</h1>
+    <p>Click the button to display person details.</p>
+
+    <button onclick="showPerson()">Show Person</button>
+
+    <h2>Direct Properties:</h2>
+    <p id="propName"></p>
+    <p id="propAge"></p>
+    <p id="propCity"></p>
+
+    <h2>Using loop:</h2>
+    <ul id="propList"></ul>
+
+    <script>
+        function showPerson() {
+            var person = {
+                name: "Rahul Sharma",
+                age: 21,
+                city: "Bangalore"
+            };
+
+            document.getElementById("propName").innerText = "Name: " + person.name;
+            document.getElementById("propAge").innerText = "Age: " + person.age;
+            document.getElementById("propCity").innerText = "City: " + person.city;
+
+            console.log("Name: " + person.name);
+            console.log("Age: " + person.age);
+            console.log("City: " + person.city);
+
+            var listHtml = "";
+            for (var key in person) {
+                listHtml += "<li>" + key + ": " + person[key] + "</li>";
+            }
+            document.getElementById("propList").innerHTML = listHtml;
+        }
+    </script>
+</body>
+</html>

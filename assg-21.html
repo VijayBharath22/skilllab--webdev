@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 3 - Assignment 5</title>
+  </head>
+  <body>
+    <h1>Day 3 - Greet User</h1>
+    <p>Enter your name to get a greeting message.</p>
+
+    <label>Name: </label>
+    <input type="text" id="name" /><br /><br />
+
+    <button onclick="showGreeting()">Greet Me</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+    <script>
+      function greetUser(name) {
+        return "Hello, " + name + "! Welcome to JavaScript.";
+      }
+      function showGreeting() {
+        var userName = document.getElementById("name").value;
+        var message = greetUser(userName);
+        document.getElementById("result").innerText = message;
+      }
+    </script>
+  </body>
+</html>
