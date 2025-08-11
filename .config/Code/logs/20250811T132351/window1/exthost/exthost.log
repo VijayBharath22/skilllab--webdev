@@ -53,3 +53,13 @@
 	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020849)
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948410)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941737)
+2025-08-11 13:49:35.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-08-11 13:49:36.501 [error] Error: No such branch: master.
+	at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941737)
+2025-08-11 13:56:16.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10006

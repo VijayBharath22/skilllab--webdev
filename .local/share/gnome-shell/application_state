@@ -7,10 +7,10 @@
     <application id="firefox.desktop" score="18784.113739013672" last-seen="1754476534"/>
     <application id="libreoffice-writer.desktop" score="46" last-seen="1754390502"/>
     <application id="org.gnome.gedit.desktop" score="0" last-seen="1754390591"/>
-    <application id="code.desktop" score="1844.875" last-seen="1754900111"/>
+    <application id="code.desktop" score="1852.875" last-seen="1754900655"/>
     <application id="yelp.desktop" score="0" last-seen="1754384996"/>
     <application id="gnome-control-center.desktop" score="2" last-seen="1754473837"/>
-    <application id="chromium_chromium.desktop" score="693" last-seen="1754900101"/>
+    <application id="chromium_chromium.desktop" score="733" last-seen="1754900657"/>
     <application id="gdebi.desktop" score="0" last-seen="1754898835"/>
   </context>
 </application-state>

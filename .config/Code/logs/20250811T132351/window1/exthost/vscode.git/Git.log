@@ -157,3 +157,60 @@
 2025-08-11 13:45:03.413 [info] > git show --textconv :assg-20.html [4ms]
 2025-08-11 13:45:03.415 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-20.html [2ms]
 2025-08-11 13:45:03.419 [info] > git cat-file -s f83e9435f684186eff2e0672452bdb5e62a27c15 [1ms]
+2025-08-11 13:49:35.387 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:49:35.387 [info] > git config --get commit.template [3ms]
+2025-08-11 13:49:35.388 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:49:35.388 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:49:35.498 [info] > git status -z -uall [108ms] (cancelled)
+2025-08-11 13:49:35.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [50ms]
+2025-08-11 13:49:35.499 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:49:36.625 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-20.html [1ms]
+2025-08-11 13:49:36.627 [info] > git cat-file -s f83e9435f684186eff2e0672452bdb5e62a27c15 [1ms]
+2025-08-11 13:49:36.630 [info] > git show --textconv :assg-20.html [1ms]
+2025-08-11 13:50:01.270 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-20.html [1ms]
+2025-08-11 13:50:01.272 [info] > git cat-file -s f83e9435f684186eff2e0672452bdb5e62a27c15 [1ms]
+2025-08-11 13:50:01.275 [info] > git show --textconv :assg-20.html [1ms]
+2025-08-11 13:55:31.622 [info] > git check-ignore -v -z --stdin [3ms]
+2025-08-11 13:56:16.240 [info] > git config --get commit.template [6ms]
+2025-08-11 13:56:16.243 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:56:16.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:56:16.291 [info] > git status -z -uall [44ms]
+2025-08-11 13:56:16.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-08-11 13:56:16.318 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-08-11 13:56:16.318 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-11 13:56:16.320 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2025-08-11 13:56:16.323 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-08-11 13:56:16.323 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-08-11 13:56:16.742 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-20.html [1ms]
+2025-08-11 13:56:16.744 [info] > git cat-file -s f83e9435f684186eff2e0672452bdb5e62a27c15 [0ms]
+2025-08-11 13:56:16.749 [info] > git show --textconv :assg-20.html [1ms]
+2025-08-11 13:56:17.456 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:56:17.457 [info] > git config --get commit.template [3ms]
+2025-08-11 13:56:17.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:56:17.500 [info] > git status -z -uall [41ms]
+2025-08-11 13:56:17.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:56:17.509 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-08-11 13:56:17.509 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-11 13:56:17.512 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2025-08-11 13:56:17.515 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-08-11 13:56:17.515 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-08-11 13:56:27.425 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:56:27.425 [info] > git config --get commit.template [2ms]
+2025-08-11 13:56:27.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:56:27.457 [info] > git status -z -uall [30ms]
+2025-08-11 13:56:27.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-08-11 13:56:27.465 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-08-11 13:56:27.466 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-11 13:56:27.469 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2025-08-11 13:56:27.472 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-08-11 13:56:27.472 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-08-11 13:56:32.469 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:56:32.469 [info] > git config --get commit.template [2ms]
+2025-08-11 13:56:32.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:56:32.513 [info] > git status -z -uall [41ms]
+2025-08-11 13:56:32.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:56:32.522 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-08-11 13:56:32.522 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-11 13:56:32.525 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2025-08-11 13:56:32.531 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-08-11 13:56:32.531 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
