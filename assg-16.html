@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 2-assignment 8</title>
+  <style>
+    .accordion {
+      width: 300px;
+      margin: auto;
+      font-family: Arial, sans-serif;
+    }
+    input[type="checkbox"] {
+      display: none;
+    }
+    label {
+      display: block;
+      background: #4CAF50;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+    .content {
+      max-height: 0;
+      overflow: hidden;
+      background: #f1f1f1;
+      transition: max-height 0.3s ease;
+      padding: 0 10px;
+    }
+    input[type="checkbox"]:checked + label + .content {
+      max-height: 200px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="accordion">
+    <input type="checkbox" id="section1">
+    <label for="section1">Section 1</label>
+    <div class="content">
+      <p>This is section 1 content.</p>
+    </div>
+
+    <input type="checkbox" id="section2">
+    <label for="section2">Section 2</label>
+    <div class="content">
+      <p>This is section 2 content.</p>
+    </div>
+  </div>
+</body>
+</html>
