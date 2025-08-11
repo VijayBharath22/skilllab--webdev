@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=DEVICE>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #capital{
+          color:aquamarine;
+          font-weight: bold;
+          font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a country</h1>
+ <select id="selectcountry" onchange="showcapital()">
+    <option>--select a country</option>
+    <option value="india">India</option>
+    <option value="germany">Germany</option>
+    <option value="france">France</option>
+    <option value="russia">Russia</option>
+ </select>
+ <p>Capital:<span id="capital"></span></p>
+ <script>
+    function showcapital()
+    {
+        var selectelement=document.getElementById("selectcountry");
+        var selectedcountry=selectelement.options(selectelement.selectindex).value;
+        var capitalelement=document.getElementById("capital");
+        switch(selectedcountry)
+        {
+                case "india":
+                capitalelement.innerText= "new delhi";
+                break;
+                case "germany":
+                capitalelement.innerText= "berlin";
+                break;
+                case "france":
+                capitalelement.innerText= "paris";
+                break;
+                case "russia":
+                capitalelement.innerText= "moscow";
+                break;
+                default:
+                    capitalelement.innerText=" ";
+                    break;
+        }
+    }
+ </script>
+</body>
+</html>

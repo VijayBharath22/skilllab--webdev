@@ -1,0 +1,4 @@
+2025-08-06 13:10:32.415 [info] update#setState idle
+2025-08-06 13:11:02.417 [info] update#setState checking for updates
+2025-08-06 13:11:02.420 [info] update#setState available for download
+2025-08-06 13:28:19.612 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)

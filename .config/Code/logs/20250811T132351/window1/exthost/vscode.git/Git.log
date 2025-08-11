@@ -1,0 +1,159 @@
+2025-08-11 13:23:53.271 [info] [main] Log level: Info
+2025-08-11 13:23:53.271 [info] [main] Validating found git in: "git"
+2025-08-11 13:23:53.271 [info] [main] Using git "2.25.1" from "git"
+2025-08-11 13:23:53.271 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-11 13:23:53.271 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-11 13:23:53.271 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.271 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-11 13:23:53.271 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.297 [info] > git rev-parse --show-toplevel [18ms]
+2025-08-11 13:23:53.297 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.310 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.310 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.315 [info] > git rev-parse --show-toplevel [3ms]
+2025-08-11 13:23:53.315 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.320 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.324 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.324 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.329 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.329 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.332 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.332 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.335 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.335 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.341 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-11 13:23:53.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.345 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.345 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.348 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.348 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.350 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.350 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.351 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-11 13:23:53.354 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.354 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.357 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.357 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.389 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:53.424 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:53.424 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:23:55.161 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:23:55.161 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:36:05.587 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-11 13:36:05.590 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2025-08-11 13:36:05.597 [info] [Model][openRepository] Opened repository: /home/ise/skilllab--webdev
+2025-08-11 13:36:05.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-08-11 13:36:05.615 [info] > git config --get commit.template [15ms]
+2025-08-11 13:36:05.625 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ise/skilllab--webdev/.git/refs/remotes/origin/main'
+2025-08-11 13:36:05.625 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-08-11 13:36:05.630 [info] > git status -z -uall [3ms]
+2025-08-11 13:36:05.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-08-11 13:36:05.649 [info] > git config --get commit.template [5ms]
+2025-08-11 13:36:05.650 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-08-11 13:36:05.650 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-11 13:36:05.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-08-11 13:36:05.656 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2025-08-11 13:36:05.659 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ise/skilllab--webdev/.git/refs/remotes/origin/main'
+2025-08-11 13:36:05.685 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2025-08-11 13:36:05.687 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [30ms]
+2025-08-11 13:36:05.704 [info] > git status -z -uall [17ms]
+2025-08-11 13:36:05.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [15ms]
+2025-08-11 13:36:05.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-08-11 13:36:05.718 [info] > git config --local branch.main.vscode-merge-base origin/main [12ms]
+2025-08-11 13:36:05.721 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2025-08-11 13:36:05.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-08-11 13:36:05.727 [info] > git config --get commit.template [6ms]
+2025-08-11 13:36:05.731 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-08-11 13:36:05.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-08-11 13:36:05.735 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ise/skilllab--webdev/.git/refs/remotes/origin/main'
+2025-08-11 13:36:05.736 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2025-08-11 13:36:05.738 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-08-11 13:36:05.740 [info] > git diff --name-status -z --diff-filter=ADMR 4f1e824edd26ecd6a3e455f2407f5aeb3b5efce4...refs/remotes/origin/main [2ms]
+2025-08-11 13:36:05.741 [info] > git status -z -uall [1ms]
+2025-08-11 13:36:05.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-08-11 13:36:05.746 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-08-11 13:36:05.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [0ms]
+2025-08-11 13:36:06.141 [info] > git check-ignore -v -z --stdin [3ms]
+2025-08-11 13:36:06.801 [info] > git config --get commit.template [4ms]
+2025-08-11 13:36:06.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-08-11 13:36:06.804 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ise/skilllab--webdev/.git/refs/remotes/origin/main'
+2025-08-11 13:36:06.805 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-08-11 13:36:06.808 [info] > git status -z -uall [1ms]
+2025-08-11 13:36:06.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-08-11 13:36:06.815 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-08-11 13:36:06.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-08-11 13:36:16.543 [info] > git rev-parse --show-toplevel [0ms]
+2025-08-11 13:36:16.543 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:36:22.103 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-11 13:36:22.103 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:36:25.650 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 13:36:25.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-11 13:38:18.185 [info] > git show --textconv :README.md [5ms]
+2025-08-11 13:38:18.196 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/README.md [11ms]
+2025-08-11 13:38:18.214 [info] > git cat-file -s b1c52b9b236bf0e70e59ef87b120940d0ae81e0a [13ms]
+2025-08-11 13:38:18.275 [info] > git check-ignore -v -z --stdin [1ms]
+2025-08-11 13:38:21.995 [info] > git check-ignore -v -z --stdin [3ms]
+2025-08-11 13:38:37.163 [info] > git show --textconv :assg-17.html [4ms]
+2025-08-11 13:38:37.164 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-17.html [1ms]
+2025-08-11 13:38:37.168 [info] > git cat-file -s f916b5778a0ae61b276c9c0ad69c1fa6fcf7b303 [0ms]
+2025-08-11 13:38:38.048 [info] > git show --textconv :assg-19.html [10ms]
+2025-08-11 13:38:38.051 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-19.html [3ms]
+2025-08-11 13:38:38.061 [info] > git cat-file -s ae11fd3507d58e7ba0e544582ec8e23e17946324 [3ms]
+2025-08-11 13:41:55.128 [info] > git show --textconv :README.md [3ms]
+2025-08-11 13:41:55.128 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/README.md [1ms]
+2025-08-11 13:41:55.130 [info] > git cat-file -s b1c52b9b236bf0e70e59ef87b120940d0ae81e0a [1ms]
+2025-08-11 13:42:34.420 [info] > git rev-parse --show-toplevel [0ms]
+2025-08-11 13:42:34.423 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-08-11 13:42:34.425 [info] [Model][openRepository] Opened repository: /home/ise
+2025-08-11 13:42:34.430 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:42:34.430 [info] > git config --get commit.template [3ms]
+2025-08-11 13:42:34.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:42:34.430 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:42:34.518 [info] > git status -z -uall [86ms] (cancelled)
+2025-08-11 13:42:34.970 [info] > git check-ignore -v -z --stdin [10ms]
+2025-08-11 13:42:34.972 [info] > git check-ignore -v -z --stdin [4ms]
+2025-08-11 13:42:49.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2025-08-11 13:42:49.504 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:42:49.506 [info] > git config --get commit.template [2ms]
+2025-08-11 13:42:49.512 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:42:49.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:42:49.517 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:42:50.173 [info] > git status -z -uall [654ms] (cancelled)
+2025-08-11 13:42:50.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [77ms]
+2025-08-11 13:42:50.173 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:42:55.115 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:42:55.115 [info] > git config --get commit.template [2ms]
+2025-08-11 13:42:55.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-08-11 13:42:55.115 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:42:55.213 [info] > git status -z -uall [96ms] (cancelled)
+2025-08-11 13:42:55.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [44ms]
+2025-08-11 13:42:55.213 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:42:56.331 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/README.md [3ms]
+2025-08-11 13:42:56.343 [info] > git cat-file -s b1c52b9b236bf0e70e59ef87b120940d0ae81e0a [4ms]
+2025-08-11 13:42:56.365 [info] > git show --textconv :README.md [3ms]
+2025-08-11 13:43:58.568 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-11 13:43:58.569 [info] > git config --get commit.template [2ms]
+2025-08-11 13:43:58.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 13:43:58.569 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:43:58.670 [info] > git status -z -uall [100ms] (cancelled)
+2025-08-11 13:43:58.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+2025-08-11 13:43:58.670 [warning] [Git][getBranch] No such branch: master
+2025-08-11 13:43:59.719 [info] > git config --get commit.template [10ms]
+2025-08-11 13:43:59.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-08-11 13:43:59.728 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ise/skilllab--webdev/.git/refs/remotes/origin/main'
+2025-08-11 13:43:59.731 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-08-11 13:43:59.742 [info] > git status -z -uall [4ms]
+2025-08-11 13:43:59.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-08-11 13:43:59.769 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2025-08-11 13:43:59.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-08-11 13:43:59.806 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/README.md [1ms]
+2025-08-11 13:43:59.811 [info] > git cat-file -s b1c52b9b236bf0e70e59ef87b120940d0ae81e0a [2ms]
+2025-08-11 13:43:59.819 [info] > git show --textconv :README.md [2ms]
+2025-08-11 13:44:15.868 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/README.md [1ms]
+2025-08-11 13:44:15.870 [info] > git cat-file -s b1c52b9b236bf0e70e59ef87b120940d0ae81e0a [1ms]
+2025-08-11 13:44:15.873 [info] > git show --textconv :README.md [0ms]
+2025-08-11 13:45:03.413 [info] > git show --textconv :assg-20.html [4ms]
+2025-08-11 13:45:03.415 [info] > git ls-files --stage -- /home/ise/skilllab--webdev/assg-20.html [2ms]
+2025-08-11 13:45:03.419 [info] > git cat-file -s f83e9435f684186eff2e0672452bdb5e62a27c15 [1ms]

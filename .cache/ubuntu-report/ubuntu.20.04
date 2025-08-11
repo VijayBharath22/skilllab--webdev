@@ -1,0 +1,88 @@
+{
+  "Version": "20.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "10SRS3XR00",
+    "Family": "ThinkCentre M720t"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "M1UKT5CA"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "8",
+    "Threads": "1",
+    "Cores": "8",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "158",
+    "Stepping": "13",
+    "Name": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "3e98"
+    }
+  ],
+  "RAM": 16.2,
+  "Disks": [
+    1000.2
+  ],
+  "Partitions": [
+    121.3
+  ],
+  "Screens": [
+    {
+      "Size": "419mmx262mm",
+      "Resolution": "1440x900",
+      "Frequency": "59.89"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_IN",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 20.04.5 LTS \"Focal Fossa\" - Release amd64 (20220831)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "manual",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "8": "console_setup",
+      "11": "prepare",
+      "25": "partman",
+      "52": "partman",
+      "53": "partman",
+      "55": "partman",
+      "67": "partman",
+      "70": "partman",
+      "77": "partman",
+      "79": "partman",
+      "150": "partman",
+      "152": "partman",
+      "164": "partman",
+      "166": "partman",
+      "170": "partman",
+      "197": "start_install",
+      "202": "timezone",
+      "206": "usersetup",
+      "235": "user_done",
+      "458": "done"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item::after {
+            content: "";
+            display: block;
+            padding-bottom: 100%; /* Creates a square aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Photo Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/FF5733/FFFFFF?text=Image+1" alt="Image 1"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/33FF57/FFFFFF?text=Image+2" alt="Image 2"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/3357FF/FFFFFF?text=Image+3" alt="Image 3"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/F0FF33/000000?text=Image+4" alt="Image 4"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/8D33FF/FFFFFF?text=Image+5" alt="Image 5"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/FF33A1/FFFFFF?text=Image+6" alt="Image 6"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/33FFE0/000000?text=Image+7" alt="Image 7"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/600x600/A1FF33/000000?text=Image+8" alt="Image 8"></div>
+    </div>
+
+</body>
+</html>

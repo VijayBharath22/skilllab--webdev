@@ -1,0 +1,20 @@
+{"timestamp":10520920,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","path_key":"clean","glean_timestamp":"1754476518009","loadfail_reason":"N/A"}}
+{"timestamp":10520921,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","path_key":"clean","glean_timestamp":"1754476518009","can_load":"true"}}
+{"timestamp":10520921,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1754476518010","shutdown_ok":"false","shutdown_reason":"N/A"}}
+{"timestamp":10521217,"category":"webcompatreporting","name":"reason_dropdown","extra":{"glean_timestamp":"1754476518305","setting":"required"}}
+{"timestamp":10521383,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1754476518471","value":""}}
+{"timestamp":10521544,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1754476518633","value":"null"}}
+{"timestamp":10521691,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"glean_timestamp":"1754476518779","reason":"feature-conflict","value":"device-migration-accounts-toolbar-icon-rollout"}}
+{"timestamp":10521691,"category":"nimbus_events","name":"enroll_failed","extra":{"experiment":"device-migration-accounts-toolbar-icon-rollout","reason":"feature-conflict","glean_timestamp":"1754476518779"}}
+{"timestamp":10521796,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"glean_timestamp":"1754476518884","reason":"feature-conflict","value":"account-spotlight-modal-global-rollout-v3"}}
+{"timestamp":10521796,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"account-spotlight-modal-global-rollout-v3","glean_timestamp":"1754476518884"}}
+{"timestamp":10521822,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1754476518911"}}
+{"timestamp":10521884,"category":"jsonfile","name":"load_logins","extra":{"glean_timestamp":"1754476518972","value":""}}
+{"timestamp":10521885,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1754476518974","value":"not-major"}}
+{"timestamp":10530572,"category":"devtools.main","name":"open_tools","extra":{"session_id":"-1","host":"bottom","first_panel":"inspector","splitconsole":"false","width":"1400","shortcut":"","glean_timestamp":"1754476527660","entrypoint":"ContextMenu"}}
+{"timestamp":10530572,"category":"devtools.main","name":"enter_inspector","extra":{"glean_timestamp":"1754476527660","start_state":"initial_panel","host":"bottom","cold":"true","session_id":"-1","width":"1400","panel_name":"inspector"}}
+{"timestamp":10537554,"category":"devtools.main","name":"tool_timer_layoutview","extra":{"time_open":"7065","glean_timestamp":"1754476534642","os":"Linux 5.15.0-139-generic","session_id":"9678"}}
+{"timestamp":10537559,"category":"devtools.main","name":"tool_timer_ruleview","extra":{"session_id":"9678","os":"Linux 5.15.0-139-generic","time_open":"7085","glean_timestamp":"1754476534647"}}
+{"timestamp":10537563,"category":"devtools.main","name":"exit_inspector","extra":{"panel_name":"inspector","session_id":"9678","next_panel":"none","host":"bottom","width":"1400","glean_timestamp":"1754476534651","reason":"toolbox_close"}}
+{"timestamp":10537563,"category":"devtools.main","name":"close_tools","extra":{"width":"1400","host":"bottom","session_id":"9678","glean_timestamp":"1754476534651"}}
+{"timestamp":10537635,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1754476534724"}}

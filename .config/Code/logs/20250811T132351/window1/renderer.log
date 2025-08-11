@@ -1,0 +1,24 @@
+2025-08-11 13:23:52.551 [info] Started local extension host with pid 5765.
+2025-08-11 13:23:55.226 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-11 13:23:55.446 [info] [perf] Render performance baseline is 22ms
+2025-08-11 13:28:55.255 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-11 13:33:55.329 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-11 13:36:20.824 [error] Unable to read file '/home/ise/first  day codes/vijay2' (Error: File not modified since): Error: Unable to read file '/home/ise/first  day codes/vijay2' (Error: File not modified since)
+    at r.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:19341)
+    at r.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:19227)
+    at async p.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2466:35620)
+    at async p.readStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2466:35377)
+    at async P.Db (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2455:12240)
+    at async P.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2455:10652)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2466:31399
+2025-08-11 13:36:24.123 [error] Unable to read file '/home/ise/first  day codes/vijay3' (Error: File not modified since): Error: Unable to read file '/home/ise/first  day codes/vijay3' (Error: File not modified since)
+    at r.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:19341)
+    at r.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:19227)
+    at async p.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2466:35620)
+    at async p.readStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2466:35377)
+    at async P.Db (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2455:12240)
+    at async P.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2455:10652)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2466:31399
+2025-08-11 13:38:55.344 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-11 13:43:55.361 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-11 13:48:55.401 [warning] Failed to fetch chat participant registry Failed to fetch

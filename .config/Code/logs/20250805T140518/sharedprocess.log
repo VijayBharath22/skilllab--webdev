@@ -1,0 +1,26 @@
+2025-08-05 14:08:38.107 [info] Getting Manifest... ritwickdey.liveserver
+2025-08-05 14:08:38.112 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ise/.vscode/extensions/extensions.json","path":"/home/ise/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2025-08-05 14:08:39.864 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1187ms.
+2025-08-05 14:08:41.657 [info] Extracted extension to file:///home/ise/.vscode/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2025-08-05 14:08:41.667 [info] Renamed to /home/ise/.vscode/extensions/ritwickdey.liveserver-5.7.9
+2025-08-05 14:08:41.678 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/ise/.vscode/extensions/extensions.json
+2025-08-05 14:08:41.751 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ise/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ise/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2025-08-05 14:09:09.104 [info] Getting Manifest... profimedica.live-preview
+2025-08-05 14:09:09.119 [info] Installing extension: profimedica.live-preview {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ise/.vscode/extensions/extensions.json","path":"/home/ise/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2025-08-05 14:09:10.261 [info] Extension signature verification result for profimedica.live-preview: Success. Executed: true. Duration: 572ms.
+2025-08-05 14:09:10.311 [info] Extracted extension to file:///home/ise/.vscode/extensions/profimedica.live-preview-0.0.3: profimedica.live-preview
+2025-08-05 14:09:10.314 [info] Renamed to /home/ise/.vscode/extensions/profimedica.live-preview-0.0.3
+2025-08-05 14:09:10.324 [info] Extension installed successfully: profimedica.live-preview vscode-userdata:/home/ise/.vscode/extensions/extensions.json
+2025-08-05 14:09:10.398 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ise/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ise/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

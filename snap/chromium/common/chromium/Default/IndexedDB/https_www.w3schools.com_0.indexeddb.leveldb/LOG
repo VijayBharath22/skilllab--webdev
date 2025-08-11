@@ -1,0 +1,6 @@
+2025/08/06-13:55:34.519 13a4 Creating DB /home/ise/snap/chromium/common/chromium/Default/IndexedDB/https_www.w3schools.com_0.indexeddb.leveldb since it was missing.
+2025/08/06-13:55:34.524 13a4 Reusing MANIFEST /home/ise/snap/chromium/common/chromium/Default/IndexedDB/https_www.w3schools.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/06-13:55:38.426 13a5 Level-0 table #5: started
+2025/08/06-13:55:38.428 13a5 Level-0 table #5: 385 bytes OK
+2025/08/06-13:55:38.430 13a5 Delete type=0 #3
+2025/08/06-13:55:38.430 13a5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

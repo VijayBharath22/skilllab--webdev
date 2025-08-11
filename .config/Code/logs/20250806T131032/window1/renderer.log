@@ -1,0 +1,46 @@
+2025-08-06 13:10:33.055 [info] Started local extension host with pid 5702.
+2025-08-06 13:10:36.374 [info] [perf] Render performance baseline is 22ms
+2025-08-06 13:10:36.402 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:15:36.496 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:20:36.500 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:25:36.517 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:30:36.521 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:35:36.544 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:40:36.549 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:45:36.565 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:50:36.585 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 13:53:31.023 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (/usr/share/code/resources/app/out/bootstrap-fork.js:1:1878)
+	at process.emit (node:events:519:28)
+2025-08-06 13:55:36.596 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:00:36.611 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:05:36.615 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:10:36.631 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:15:36.634 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:20:36.656 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:25:36.671 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:30:36.688 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:35:36.703 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:40:36.776 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:45:36.790 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:50:36.828 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 14:55:36.904 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:00:36.919 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:05:36.956 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:10:36.994 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:15:37.021 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:20:37.035 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:25:37.072 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:30:37.110 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:35:37.165 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:40:37.239 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:45:37.278 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:50:37.319 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 15:55:37.358 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:00:37.374 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:05:37.388 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:10:37.445 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:15:37.462 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:20:37.476 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:25:37.513 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-08-06 16:30:37.523 [warning] Failed to fetch chat participant registry Failed to fetch
